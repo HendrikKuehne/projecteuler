@@ -10,6 +10,10 @@ setup(
     packages=find_packages(),
     install_requires=[
         "numpy",
+        "cotengra",
+        "opt_einsum",
+        "networkx",
+        "matplotlib",
     ],
 )
 

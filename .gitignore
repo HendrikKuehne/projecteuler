@@ -49,3 +49,7 @@ datasets/
 test.*
 test/
 plotting_code/
+*.png
+*.jpg
+*.jpeg
+*.pdf
