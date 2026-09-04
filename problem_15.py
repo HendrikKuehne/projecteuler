@@ -1,8 +1,15 @@
+"""
+Solution by tensor network. This is overkill, of course;
+the analytical expression for the NxN grid is 2N choose
+N.
+"""
+
 import numpy as np
 import opt_einsum as oe
 import networkx as nx
 import matplotlib.pyplot as plt
 import cotengra as ctg
+
 
 def solve_problem_15(N):
     """
