@@ -1,0 +1,1 @@
+These are my some of my solutions for [Project Euler](https://projecteuler.net). Note that some problems are solvable with pen and paper, so this is not an exhaustive collection of solutions.

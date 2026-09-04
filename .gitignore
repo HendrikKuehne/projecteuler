@@ -1,0 +1,51 @@
+
+# Ignore Python temporary and compiled files.
+__pycache__
+*.pyc
+
+# Ignoring python package files and dirs.
+*.pth
+belief_propagation.egg-info/
+
+# ignore generated Jupyter files
+*.ipynb_checkpoints/
+
+# Ignore compressed files, pickles and datasets.
+*.zip
+*.tar.gz
+*.pickle
+data/
+doc/imgs/
+doc/plots/
+*.xyz
+datasets/
+
+# Mac
+.DS_Store
+
+# VScode
+.vscode/
+*.code-workspace
+
+# Antigravity IDE
+.antigravitycli/
+
+# Ignore Latex temporary files.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.nav
+*.toc
+*.tcp
+*.tps
+*.snm
+*.fls
+*.synctex
+*.fdb_latexmk
+
+# ignore test files and code for plots.
+test.*
+test/
+plotting_code/
