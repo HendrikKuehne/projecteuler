@@ -1,16 +1,16 @@
 
-# Ignore Python temporary and compiled files.
+# ignore Python temporary and compiled files.
 __pycache__
 *.pyc
 
 # Ignoring python package files and dirs.
 *.pth
-belief_propagation.egg-info/
+projecteuler_env
 
 # ignore generated Jupyter files
 *.ipynb_checkpoints/
 
-# Ignore compressed files, pickles and datasets.
+# ignore compressed files, pickles and datasets.
 *.zip
 *.tar.gz
 *.pickle
@@ -30,7 +30,7 @@ datasets/
 # Antigravity IDE
 .antigravitycli/
 
-# Ignore Latex temporary files.
+# ignore Latex temporary files.
 *.aux
 *.bbl
 *.bcf
