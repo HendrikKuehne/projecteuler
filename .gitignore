@@ -3,9 +3,10 @@
 __pycache__
 *.pyc
 
-# Ignoring python package files and dirs.
+# ignore python package files and dirs.
 *.pth
 projecteuler_env
+projecteuler.egg-info/
 
 # ignore generated Jupyter files
 *.ipynb_checkpoints/
